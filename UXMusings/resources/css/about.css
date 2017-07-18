@@ -1,0 +1,51 @@
+h2{
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  color: #65A7DE;
+}
+h4{
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+}
+
+.section{
+  margin: 1rem auto;
+  background-color: white;
+  max-width: 82rem;
+  height: 2rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa{
+  padding: 2rem;
+  font-size: 4rem;
+  color: #65A7DE;
+}
+.banner img{
+  max-height: 15rem;
+  display: inline;
+}
+.banner{
+  display: flex;
+  max-width: 86rem;
+  margin: 1rem auto;
+  align-items: center;;
+}
+.text-banner{
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  color: #ffffff;
+}
+.button{
+  padding: 1rem;
+  margin: 2rem 0;
+  width: 10rem;
+  background-color: #65A7DE;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  display: block;
+}

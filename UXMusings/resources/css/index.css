@@ -1,0 +1,119 @@
+
+html{
+  background-color: #003366;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  margin-top: 112px;
+}
+
+/* Navbar */
+
+.logo-nav{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #003366;
+  height:112px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top:0px;
+  z-index:5;
+  font-size: 1.3rem;
+  border-bottom: solid 0.1rem #65A7DE;
+}
+.logo-nav nav{
+  padding-right: 2.5rem;
+}
+.kylie{
+  padding-left: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.kylie img{
+  padding-right: 2.5rem;
+}
+.logo-nav p{
+  color:white;
+  font-size: 1.7rem;
+}
+.navbar a{
+  color: white;
+  margin:20px;
+}
+
+/* Blurb */
+.blurb{
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 2;
+  color: white;
+  overflow: auto;
+  max-width: 90rem;
+}
+.blurb blockquote{
+  padding-left: 2rem;
+}
+.blurb::before{
+  font-family: FontAwesome;
+  content: "\f10d";
+  font-style: normal;
+  display: inline;
+}
+.blurb::after{
+  font-family: FontAwesome;
+  content: "\f10e";
+  font-style: normal;
+  float:right;
+}
+
+/* Work */
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.portfolio{
+  margin: 0 auto 1.5rem auto;
+  padding: 4rem;
+  max-width: 82rem;
+  height: 3rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.example{
+  padding-left: 3rem;
+}
+.example h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  color: #65A7DE;
+}
+
+.portfolio .fa{
+  padding-right: 4rem;
+  font-size: 4rem;
+  color: #65A7DE;
+}
+
+/* Contact */
+.contact{
+  text-align: center;
+}
+.contact h3{
+  color: white;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact .fa{
+  color: white;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
